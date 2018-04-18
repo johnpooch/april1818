@@ -8,6 +8,7 @@
 
 <body>
   
+  <!--nav bar-->
   <nav class = "navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
@@ -32,12 +33,26 @@
   </nav>
   
   <article class="container">
+    
+    <div class="row hidden-xs">
+      <div class="col-sm-12">
+        <div class="alert alert-warning">
+          <strong>Sale Now On!</strong>
+          We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">Click here for more details!</a>
+        </div>
+      </div>
+    </div>
+    
     <!-- Callout -->
-    <section class="callout">
-      <h1>The finest whiskeys delivered to your doorstep.</h1>
-      <p class="lead" >Sign up today to start receiving the world's best whiskeys every month. <strong><mark>First one is free!</mark></strong><button class = "btn btn-lg btn-success"> Sign up!</button></p>
-      <p class="text-muted"><small>You must be over 18 to sign up for our service. Please drink responsibly</small></p>
-    </section>
+    <div class="row">
+      <div class="col-xs-12">
+        <section class="callout jumbotron text-center">
+          <h1>The finest whiskeys delivered to your doorstep.</h1>
+          <p class="lead" >Sign up today to start receiving the world's best whiskeys every month. <strong><mark>First one is free!</mark></strong><button class = "btn btn-lg btn-success"> Sign up!</button></p>
+          <p class="text-muted"><small>You must be over 18 to sign up for our service. Please drink responsibly</small></p>
+        </section>
+      </div>
+    </div>
     <!-- /.callout -->
     <hr>
 
@@ -58,19 +73,50 @@
 
     <!-- Features -->
     <section class="features">
-      <h2>Features:</h2>
-      <div class="feature">
-        <h3>Feature 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="text-uppercase">Features:</h2>
+        </div>
       </div>
-      <div class="feature">
-        <h3>Feature 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+      <!--Row-->
+      <div class="row">
+        
+        <!--First column-->
+        <div class="col-sm-6 col-md-4">
+          <div class="feature">
+            <section class="callout jumbotron text-center">
+              <h3><span class="glyphicon glyphicon-gift hidden-xs"></span><u>Feature 1</u> <span class = "label label-success">New!</span></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p><a class = "btn btn-sm btn-default" href="">Read more</a></p>
+            </section>
+          </div>
+        </div>
+        
+        <!--second column-->
+        <div class="col-sm-6 col-md-4">
+          <div class="feature">
+            <section class="callout jumbotron text-center">
+              <h3><span class="glyphicon glyphicon-gift hidden-xs"></span><u>Feature 2</u> <span class = "label label-success"></span></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p><a class = "btn btn-sm btn-default" href="">Read more</a></p>
+            </section>
+          </div>
+        </div>
+        
+        <!--third column-->
+        <div class="col-sm-6 col-md-4">
+          <div class="feature">
+            <section class="callout jumbotron text-center">
+              <h3><span class="glyphicon glyphicon-gift hidden-xs"></span><u>Feature 3</u> <span class = "label label-success"></span></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p><a class = "btn btn-sm btn-default" href="">Read more</a></p>
+            </section>
+          </div>
+        </div>
+        
       </div>
-      <div class="feature">
-        <h3>Feature 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
+
     </section>
     <!-- /.features -->
   </article>

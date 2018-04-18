@@ -1,0 +1,24 @@
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+    
+
+
+.navbar-default {
+    background-color: gray;
+}
+
+.btn-success {
+    background-color: gray;
+    border-color: black
+}
+
+.jumbotron {
+    background-color: inherit;
+}
+
+
+.lastWord {
+    color: red;
+}
+

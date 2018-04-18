@@ -4,6 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Whiskey Drop | Taste a new whiskey every month</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link rel="stylesheet" href="css/whiskey.css" type="text/css" /> 
+  
+
 </head>
 
 <body>
@@ -11,20 +15,27 @@
   <!--nav bar-->
   <nav class = "navbar navbar-default">
     <div class="container">
+      <!--nav icon-->
       <div class="navbar-header">
         <a href="/" class="navbar-brand">
           Whiskey Drop
         </a>
       </div>
-      
+      <!--list of navs-->
       <ul class = "nav navbar-nav">
+        
+        <!--home-->
         <li class = "active">
           <a href = "">Home</a>
         </li>
+        
+        <!--about-->
         <li>
           <a href = "">About</a>
         </li>
-        <li>
+        
+        <!--index-->
+        <li class = "visible-xs">
           <a href = "">Sign In</a>
         </li>
       </ul>
@@ -34,6 +45,7 @@
   
   <article class="container">
     
+    <!--warning bar-->
     <div class="row hidden-xs">
       <div class="col-sm-12">
         <div class="alert alert-warning">
@@ -43,27 +55,33 @@
       </div>
     </div>
     
-    <!-- Callout -->
+    <!-- callout -->
     <div class="row">
       <div class="col-xs-12">
         <section class="callout jumbotron text-center">
-          <h1>The finest whiskeys delivered to your doorstep.</h1>
+          <h1 class = "cursive">The finest whiskeys delivered to your doorstep.</h1>
           <p class="lead" >Sign up today to start receiving the world's best whiskeys every month. <strong><mark>First one is free!</mark></strong><button class = "btn btn-lg btn-success"> Sign up!</button></p>
           <p class="text-muted"><small>You must be over 18 to sign up for our service. Please drink responsibly</small></p>
         </section>
       </div>
     </div>
-    <!-- /.callout -->
+    
     <hr>
 
-    <!-- Quotes -->
+    <!-- quotes -->
     <section class="quotes">
       <h2 class="text-uppercase">Quotes:</h2>
+      
+      <!--first quote-->
       <div class="quote">
-        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+        <img src = "images/girl-image.png" class = "img-circle media-object" height = "100"  width = "100">
+        <p><em>I've been introduced to more than 10 great international whiskeys I never knew about.</em></p>
         <p>- Jane Doe</p>
       </div>
+      
+      <!--second quote-->
       <div class="quote">
+        <img src = "images/guy-image.png" class = "img-circle media-object" height = "100"  width = "100">
         <p>I haven't been sober for months!</p>
         <p>- Jane Doe</p>
       </div>
@@ -87,7 +105,7 @@
           <div class="feature">
             <section class="callout jumbotron text-center">
               <h3><span class="glyphicon glyphicon-gift hidden-xs"></span><u>Feature 1</u> <span class = "label label-success">New!</span></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <span class = "lastWord"> consequat.</span> </p>
               <p><a class = "btn btn-sm btn-default" href="">Read more</a></p>
             </section>
           </div>
